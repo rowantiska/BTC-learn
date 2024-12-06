@@ -53,4 +53,4 @@ def plotData(df):
 
 trainModel(df)
 plotData(df)
-  #The model understood the general direction and trends of the RSI but missed many major points
+  #The model understood the general direction and trends of the RSI but missed many major points (only trained using every 75 points)
